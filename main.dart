@@ -32,16 +32,16 @@ void main() {
 double convertCurrency(int fromCurrency, int toCurrency, double amount) {
   
   Map<int, double> exchangeRates = {
-    1: 1.0, // USD
-    2: 0.84, // EUR
-    3: 0.76, // GBP
-    4: 74.83, // INR
-    5: 1.31, // AUD
-    6: 1.29, // CAD
-    7: 1.35, // SGD
-    8: 00.36, // PKR
-    9: 110.15, // JPY
-    10: 6.47, // CNY
+     1: 278, // USD
+    2: 306, // EUR
+    3: 357, // GBP
+    4: 3.31, // INR
+    5: 184, // AUD
+    6: 203, // CAD
+    7: 211, // SGD
+    8: 0.0036,// PKR
+    9: 1.89, // JPY
+    10: 38.92, // CNY
   };
 
   double fromRate = exchangeRates[fromCurrency]!;
